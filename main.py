@@ -3,6 +3,8 @@ import sys
 import calendar
 import math
 
+from sklearn.model_selection import train_test_split
+
 TEST_SIZE = 0.4
 
 def main() -> object:
